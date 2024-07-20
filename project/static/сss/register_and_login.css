@@ -1,0 +1,56 @@
+/* Общие стили для всего тела документа */
+body {
+    background-color: #f4f4f4; /* Светлый фон для страницы */
+    font-family: 'Arial', sans-serif; /* Чистый и простой шрифт */
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    height: 100vh; /* Полная высота экрана */
+    margin: 0;
+}
+
+/* Стилизация контейнера для формы */
+.form-container {
+    background-color: white; /* Белый фон контейнера */
+    padding: 20px 40px; /* Паддинг внутри контейнера */
+    border-radius: 10px; /* Скругление углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объемности */
+    width: 100%;
+    max-width: 400px; /* Максимальная ширина контейнера */
+}
+
+/* Стилизация заголовка формы */
+.form-title {
+    text-align: center; /* Выравнивание заголовка по центру */
+    margin-bottom: 20px; /* Отступ под заголовком */
+    color: #333; /* Темно-серый цвет текста */
+}
+
+/* Стилизация полей ввода и меток */
+.input-field,
+.form-label {
+    width: 100%; /* Полная доступная ширина */
+    box-sizing: border-box; /* Размеры включают паддинг и границы */
+}
+
+.input-field {
+    padding: 8px 10px; /* Паддинг внутри поля */
+    margin-bottom: 10px; /* Отступ между полями */
+    border: 1px solid #ccc; /* Граница поля */
+    border-radius: 5px; /* Скругление углов поля */
+}
+
+/* Стилизация кнопки отправки */
+.button {
+    width: 100%; /* Полная ширина */
+    padding: 10px; /* Паддинг внутри кнопки */
+    background-color: #007bff; /* Синий цвет кнопки */
+    color: white; /* Белый текст */
+    border: none; /* Без границ */
+    border-radius: 5px; /* Скругление углов кнопки */
+    cursor: pointer; /* Курсор в виде указателя */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Темно-синий цвет при наведении */
+}
